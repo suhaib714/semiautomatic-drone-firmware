@@ -4,7 +4,7 @@ This is the ESP32 firmware code for a semi-autonomous guided flying drone, built
 
 ## How the code works
 
-**Auto climb (Cross).** Pressing Cross button on gamepad starts an automatic ascent. Throttle rises by 50 µs every second, so the drone keeps gaining height without further input. The climb is capped at 1600 µs, which corresponds to the maximum height (the pole height).
+**Auto climb (Cross).** Pressing Cross button on gamepad starts an automatic ascent. Throttle rises by 50 µs every second, so the drone keeps gaining height without further input. The climb is capped at 1600 µs, which corresponds to the maximum height (the tree height).
 
 **Detection.** A Raspberry Pi 4 runs the automatic arecanut detection and sends `1` (detected) or `0` (not detected) to the ESP32 over UART2 while the drone climbs.
 
