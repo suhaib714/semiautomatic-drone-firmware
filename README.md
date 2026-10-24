@@ -1,9 +1,6 @@
 # semiautomatic-drone-firmware
 This is the ESP32 firmware code for a semi-autonomous guided flying drone, built for the purpose of spraying pesticides/fertilizers for Arecanut tree. The Code is written using C++. Its ESP32-based four-motor control system using Bluetooth gamepad input via Dabble. The system supports manual throttle control, automatic acceleration and deceleration, arecanut detection through serial communication, and pump activation based on detection signals.
 
-# Semi-Automatic Agri Drone (ESP32 Firmware)
-
-Firmware for a quadcopter that is flown manually from a phone but reacts on its own when a Raspberry Pi 4 vision module detects arecanut: it slows down and runs a pump.
 
 ## How the code works
 
